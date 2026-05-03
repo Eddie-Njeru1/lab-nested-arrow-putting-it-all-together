@@ -23,9 +23,9 @@ function createLoginTracker(userInfo) {
       }
 
       if (passwordAttempt === userInfo.password) {
-        return ("Login Successful!");
+        return "Login Successful!";
       } else {
-        return ("Login Failed!");
+        return "Login Failed!";
       }
   
   
